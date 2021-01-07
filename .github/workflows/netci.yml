@@ -27,7 +27,14 @@ jobs:
       uses: mr-smithers-excellent/docker-build-push@v5
       with:
         image: docrahul/prod-app
+<<<<<<< HEAD
         registry: docker.io 
         tags: v1, latest
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
+=======
+        registry: docker.io
+        tags: v1, latest
+        username: ${{ secrets.DOCKER_USERNAME }}
+        password: ${{ secrets.DOCKER_PASSWORD }}
+>>>>>>> a1d8eab0224a645e16f8f60018e0b96cd6d6320e

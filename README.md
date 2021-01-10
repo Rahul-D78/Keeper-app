@@ -1,4 +1,4 @@
-## This is th frontend of the conduit clone more you can find out on there site [realworld.io](https://realworld.io).
+## This is a keeper app project build using React.js.
 
 ## Technologies used :
 1. React
